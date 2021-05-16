@@ -1,0 +1,58 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+    
+    <div id="header">
+            <div id="logo"><a href="anasayfa.aspx"><img src="images/logo.gif" alt="" title="" border="2" /></a></div>
+                       
+  
+
+
+
+
+            <div id="menu">
+                <ul>                                                                                            
+                    <li><a class="current" href="anasayfa.aspx" title="">Ana sayfa</a></li>
+                    <li><a href="hakkimizda.aspx" title="">Hakkýmýzda</a></li>
+                    <li><a href="mobilAndroid.aspx"   title="">Mobil-Android</a></li>
+                    <li><a href="eTicaret.aspx" title="">E-Ticaret</a></li>
+                    <li><a href="webYazilim.aspx" title="">Web-Yazýlým</a></li>
+                    <li><a href="iletisim.aspx" title="">Ýletiþim</a></li>
+                    <li><a href="urunler.aspx" title="">Ürünler</a></li>
+                </ul>
+            </div>
+            
+        
+        </div>
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        
+        <div class="footer">
+        	<div class="copyright"><a href="http://www.uzman-eticaret.com/" target="_blank">Android - Mobil</a> | <a href="http://www.uzman-eticaret.com/" target="_blank">E-Ticaret</a> | <a href="http://www.uzman-eticaret.com/" target="_blank">WEB - YAZILIM</a> </div>
+        
+        	<div class="footer_links">
+                <a class="current" href="anasayfa.aspx" title="">Anasayfa</a>
+                <a href="hakkimizda.aspx" title="">Hakkýmýzda</a>
+                <a href="mobilAndroid.aspx" title="">Mobil-Android</a>
+                <a href="eTicaret.aspx" title="">E-Ticaret</a>
+                <a href="webYazilim.aspx" title="">Web-Yazýlým</a>
+                <a href="sistemegiris.aspx" title="">Giriþ</a>
+                <a href="iletisim.aspx" title="">Ýletiþim</a>
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

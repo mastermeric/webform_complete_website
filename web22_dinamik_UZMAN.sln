@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "web22_dinamik_UZMAN", ".", "{E8E7A92F-062F-4A3B-864E-15C8A6218D15}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		Debug.AspNetCompiler.VirtualPath = "/web22_dinamik_UZMAN"
+		Debug.AspNetCompiler.PhysicalPath = "D:\PROJELER\uzman-eticaret\web22_dinamik_UZMAN\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\web22_dinamik_UZMAN\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/web22_dinamik_UZMAN"
+		Release.AspNetCompiler.PhysicalPath = "D:\PROJELER\uzman-eticaret\web22_dinamik_UZMAN\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\web22_dinamik_UZMAN\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "2568"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8E7A92F-062F-4A3B-864E-15C8A6218D15}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{E8E7A92F-062F-4A3B-864E-15C8A6218D15}.Debug|.NET.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {83139627-5F53-4D6A-AF9B-955F1BEE9272}
+	EndGlobalSection
+EndGlobal

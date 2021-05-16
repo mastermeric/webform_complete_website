@@ -1,0 +1,133 @@
+﻿body 
+{
+	/*background-image:url('resimler/bg.gif');  /*  zaten default repeat yapilir.. */	
+}
+
+.center
+{
+margin-left:auto;
+margin-right:auto;
+width:900px;
+height:900px;
+background-color:#0ca3d2;
+}
+.header
+{	
+	height:70px;
+}
+.headerText
+{	
+	text-align:center;
+	height:60px;
+	line-height: 60px; /*this is what you must define*/
+	vertical-align: middle;
+	font-size:x-large;
+	font-weight:bold;
+	font-family:Calibri,Verdana;
+}
+.labelGenel
+{
+	color:#595959;
+	font-family:Calibri,Verdana;
+}	
+
+p.header
+{
+	display:inline-block; 
+	vertical-align:middle;
+	font-size:x-large;
+	text-align:center;
+	color:#595959;
+	font-family:Calibri,Verdana;
+}
+
+p.standart
+{
+	float:left;
+	color:#595959;
+	font-family:Calibri,Verdana;
+}
+p.standartBold
+{
+	font-weight:bold;
+	color:#595959;
+	font-family:Calibri,Verdana;
+}
+
+.stokIcon
+{
+	float:left;
+}
+
+.cellIcon
+{
+width:20px;
+height:20px;
+}
+
+.cellText
+{
+	height:20px;
+	width:100px;
+}
+.stokDurumIcon
+{
+border-left: 1px solid black;
+border-bottom: 1px solid black;
+border-right: 1px solid black;
+border-top:1px solid black;
+}
+
+/********************      View1         *******************/
+#View1
+{
+	background-color:Blue;
+	}
+.View1MainCss
+{
+	float:left;
+	background-color:White;
+	width:1000px;
+	height:700px;
+}
+	
+.View1Header
+{
+	background-color:#E8F4FF;
+}
+
+.View1Content
+{
+	height:500px;  /* content icin yeterince alan birakmaya yarar*/
+}
+
+.View1Footer
+{
+	height: 75px;
+}
+/************************************************************/
+
+
+
+
+	
+/********************      View2         *******************/
+.View2MainCss
+{
+	float:left;
+	background-color:White;
+	width:1000px;
+	height:700px;
+}
+/************************************************************/
+
+
+/********************      View3         *******************/
+.View3MainCss
+{
+	float:left;
+	background-color:White;
+	width:1000px;
+	height:700px;
+	}
+/************************************************************/

@@ -1,0 +1,24 @@
+﻿.Initial
+{
+	display: block;
+	padding: 4px 18px 4px 18px;
+	float: left;
+	background: url("InitialImage.png") no-repeat right top;
+	color: Black;
+	font-family:Calibri,Verdana;
+}
+.Initial:hover
+{
+	font-family:Calibri,Verdana;
+	color: White;
+	background: url("SelectedButton.png") no-repeat right top;
+}
+.Clicked
+{
+	float: left;
+	display: block;
+	background: url("SelectedButton.png") no-repeat right top;
+	padding: 4px 18px 4px 18px;
+	color: Black;
+	color: White;
+}
